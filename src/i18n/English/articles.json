@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "title": "The Future of Blockchain Technology",
+      "author": "John Doe",
+      "id": "1",
+      "authorDes": "Blockchain Enthusiast",
+      "date": "May 15, 2023",
+      "readTime": "5 min read",
+      "description": "Blockchain technology is revolutionizing various industries. From finance to supply chain management, its potential applications are vast and growing. This decentralized ledger technology offers unprecedented levels of transparency, security, and efficiency.",
+      "tags": ["Blockchain", "Technology", "Future"]
+    },
+    {
+      "title": "AI and Machine Learning",
+      "author": "John Doe",
+      "authorDes": "Tech Journalist",
+      "date": "June 10, 2023",
+      "readTime": "7 min read",
+      "description": "Artificial Intelligence and Machine Learning are transforming the way we live and work. These technologies are enabling new levels of automation and intelligence in various fields.",
+      "tags": ["AI", "Machine Learning", "Technology"]
+    },
+    {
+      "title": "Decentralized Finance (DeFi) Explained",
+      "author": "Alex Johnson",
+      "authorDes": "Crypto Analyst",
+      "date": "June 10, 2023",
+      "readTime": "5 min read",
+      "description": "As these challenges are addressed, we can expect to see wider adoption and more innovative applications of blockchain technology across various sectors.",
+      "tags": ["Technology", "Future", "Cryptocurrency"]
+    }
+  ]
+}

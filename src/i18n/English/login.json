@@ -1,0 +1,15 @@
+{
+  "title": "Login",
+  "subtitle": "Enter your credentials to access your account",
+  "emailLabel": "Email Address",
+  "passwordLabel": "Password",
+  "button": "Login",
+  "loading": "Logging in...",
+  "forgotPassword": "Forgot Password?",
+  "noAccount": "Don't have an account?",
+  "signUp": "Sign up here",
+  "loginError": "Invalid email or password.",
+  "emailRequired": "Email is required.",
+  "emailInvalid": "Please enter a valid email address.",
+  "passwordRequired": "Password is required."
+}

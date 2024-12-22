@@ -1,0 +1,26 @@
+{
+  "authors": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "AboutAuthor": "Tech enthusiast, software engineer, and avid blogger. Passionate about AI, web development, and the future of technology.",
+      "proffesion": "Software Engineer",
+      "follower": 1234,
+      "following": 567,
+      "About": "Jane Doe is a seasoned software engineer with over a decade of experience in web development. She specializes in JavaScript, React, and Node.js, and has a keen interest in emerging technologies like AI and blockchain. Jane is a frequent speaker at tech conferences and contributes to various open-source projects.",
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Python",
+        "AI",
+        "Blockchain",
+        "Web Development"
+      ]
+    }
+  ]
+}
