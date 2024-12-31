@@ -1,5 +1,7 @@
 import { useMutation, useQueryClient } from 'react-query';
 import { supabase } from '@/supabase';
+import { MutationKeys } from '../mutationKeys';
+import { QueryKeys } from '../../query/queryKeys';
 
 // Add Blog
 export const addBlog = async (blog: {
@@ -18,8 +20,12 @@ export const useAddBlogMutation = () => {
   const queryClient = useQueryClient();
 
   return useMutation(addBlog, {
+    mutationKey: MutationKeys.BLOG.ADD,
     onSuccess: () => {
-      queryClient.invalidateQueries('blog');
+      queryClient.invalidateQueries(QueryKeys.BLOGS);
+    },
+    onError: (error: any) => {
+      console.error('Failed to add blog:', error.message);
     },
   });
 };
@@ -43,8 +49,12 @@ export const useUpdateBlogMutation = () => {
   const queryClient = useQueryClient();
 
   return useMutation(updateBlog, {
+    mutationKey: MutationKeys.BLOG.UPDATE,
     onSuccess: () => {
-      queryClient.invalidateQueries('blog');
+      queryClient.invalidateQueries(QueryKeys.BLOGS);
+    },
+    onError: (error: any) => {
+      console.error('Failed to update blog:', error.message);
     },
   });
 };
